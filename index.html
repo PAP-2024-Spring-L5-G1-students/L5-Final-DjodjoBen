@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flow+Circular&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header id="head">
+        <div id="titlediv">
+            <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><g clip-path="url(#clip0_1222_33581)"><path d="M21.0291 38.38C20.3675 38.6352 19.6346 38.6352 18.9731 38.38C13.8109 36.398 9.37139 32.8969 6.24094 28.3389C3.11048 23.7809 1.43635 18.3805 1.4397 12.851V4.28419C1.4397 3.52685 1.74056 2.8005 2.27609 2.26497C2.81161 1.72945 3.53794 1.42859 4.29531 1.42859H35.7068C36.4643 1.42859 37.1905 1.72945 37.726 2.26497C38.2617 2.8005 38.5625 3.52685 38.5625 4.28419V12.851C38.5657 18.3805 36.8917 23.7809 33.7611 28.3389C30.6308 32.8969 26.1912 36.398 21.0291 38.38Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8.73937 12.9975L11.1007 12.1947C11.2951 12.1157 11.5126 12.116 11.7068 12.1954C11.901 12.2749 12.0563 12.4272 12.1397 12.6197L13.8634 15.288L23.3086 10.5654C24.0432 10.1443 24.86 9.88677 25.7033 9.81052C26.5466 9.73426 27.3964 9.84103 28.1946 10.1235C28.9928 10.406 29.7205 10.8576 30.3282 11.4474C30.9357 12.0371 31.4088 12.7512 31.7148 13.5406C31.7768 13.7422 31.7985 13.954 31.7788 14.1639C31.7588 14.3739 31.698 14.5779 31.5994 14.7643C31.5005 14.9507 31.3663 15.1158 31.2037 15.2502C31.0411 15.3846 30.8537 15.4857 30.6523 15.5477L25.1142 17.1741L24.5003 17.363L22.3751 23.5857C22.338 23.7238 22.2665 23.8503 22.1675 23.9535C22.0684 24.0567 21.9449 24.1333 21.8084 24.176L18.3971 25.4305C18.2527 25.4783 18.0983 25.4877 17.9491 25.4576C17.8 25.4274 17.6613 25.3589 17.5468 25.2587C17.4323 25.1585 17.3459 25.0301 17.2963 24.8863C17.2466 24.7425 17.2354 24.5882 17.2637 24.4387L18.7985 19.3966L18.3971 19.5147L12.3758 21.4746C11.9812 21.6106 11.5488 21.5852 11.1729 21.4038C10.7969 21.2225 10.5079 20.8999 10.3687 20.5065L8.24351 13.9657C8.18959 13.7715 8.21065 13.5642 8.30251 13.3848C8.39437 13.2055 8.55031 13.0672 8.73937 12.9975Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/></g>
+                <defs>
+                <clipPath id="clip0_1222_33581">
+                <rect width="40" height="40" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+            <div id="title">Flight Report</div>
+        </div>
+        <div id="searchDiv">
+            <div id=searchContainer>
+                <input id="searchBar" style="cursor: pointer;" type="text" id="tag" placeholder="Search by Airline">
+            </div>
+            <div>
+                <button id="reviewBtn">Write Review</button>
+            </div>
+        </div>
+    </header> 
+    <div id="hero">
+        <div id="heroText">
+            <p id="heroTitle">You've reached<br>your destination</p>
+            <p id="heroSubtitle">Explore authentic reviews, helpful flight<br>tips, and personal airline experiences<br>shared by thousands of travelers</p>
+        </div>
+        <div id="heroImg">
+            <img src="/images/plane.png">
+        </div>
+    </div>
+    <div id="gap">
+        <p id="airlines">Airlines</p>
+    </div>
+    <div id="container">
+        <div id="randomAirlines"></div>
+        <div id="selectedAirline">
+            <div id="selectedHeader">
+               <h1 id="selectedTitle">Southwest Airlines</h1>
+               <h2 id="selectedSubtitle">Average rating: 8/10</h2>
+            </div>
+            <div id="selectedStatsTop">
+                <div class="stats fooddrink" id="fooddrink0">
+                    <img class="icons" src="/images/cup.png">
+                    <p>Food & Drink</p>
+                </div>
+                <div class="stats seatcomfort" id="seatcomfort0">
+                    <img class="icons" src="/images/chair.png">
+                    <p>Seat Comfort</p>
+                </div>
+                <div class="stats cabinstaff" id="cabinstaff0">
+                    <img class="icons" src="/images/attendant.png">
+                    <p>Cabin Service</p>
+                </div>
+            </div>
+            <div id="selectedStatsBottom">
+                <div class="stats entertainment "id="entertainment0">
+                    <img class="icons" src="/images/entertainment.png">
+                    <p>Entertainment</p>
+                </div>
+                <div class="stats connectivity" id="connectivity0">
+                    <img class="icons" src="/images/connectivity.png">
+                    <p>Connectivity</p>
+                </div>
+                <div class="stats value" id="value0">
+                    <img class="icons" src="/images/value.png">
+                    <p>Value for Money</p>
+                </div>
+            </div>
+            <div id="reviewTitle">
+                <p>Reviews</p>
+            </div>
+            <div id="reviewContainer">
+
+            </div>
+        </div>
+        <script src="frontend.js"></script>
+    </div>
+</body>
+</html>
